@@ -21,7 +21,6 @@ function changeSlides() {
     }
 
     imgs.style.transform = `translateX(${-currentSlideIndex * 500}px)`;
-    console.log(currentSlideIndex);
 }
 
 function resetInterval() {
